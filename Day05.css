@@ -100,7 +100,7 @@ dt {
     font-style: italic;
 }
 
-#griditude-1{
+#texte-1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -109,8 +109,8 @@ dt {
     padding-bottom: 20px;
 }
 
-#griditude-1 h1 {
-    color: #E98632 !important;
+#texte-1 h1 {
+    color: #E98632;
     padding: 0px;
     margin: 0px;
     margin-top: 20px;
@@ -131,7 +131,7 @@ dt {
     margin-right: 100px;
 }
 
-.gallery {
+.images {
     grid-area: 2 / 3 / 3 / 4;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -175,7 +175,7 @@ dt {
 
 }
 
-#flexitude-2{
+#texte-2{
     display: flex;
     background-image: url(misc/grille.png);
 }
@@ -197,7 +197,7 @@ dt {
     width: 20%;
     margin: 20px
 }
-#clavadarge{
+#texte-3{
     font-size: 80%;
     width: 20%;
     margin: 20px
@@ -258,7 +258,7 @@ iframe {
     padding: 5px;
   }
 
-#terminado {
+#copyrights{
     color: #AEA493;
     font-size: small;
 }
